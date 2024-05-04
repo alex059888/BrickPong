@@ -157,6 +157,7 @@
     <Image Include="Background.png" />
     <Image Include="Ball.png" />
     <Image Include="BlueWins.png" />
+    <Image Include="BPIcon.png" />
     <Image Include="Bricks.png" />
     <Image Include="Continue.png" />
     <Image Include="Player.png" />

@@ -12,6 +12,11 @@ int main (){
 	//init----------------------
 	RenderWindow window(VideoMode(wWidth, wHeight), title, Style::Default | Style::Resize);
 	Scene* scene = new gsc::GameScene(&window);
+	
+	sf::Image icn;
+	icn.loadFromFile("BPIcon.png");
+	window.setIcon(icn.getSize().x, icn.getSize().y, icn.getPixelsPtr());
+
 	float dt = 0;
 	Clock dtClock;
 	//init----------------------

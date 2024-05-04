@@ -133,6 +133,9 @@
     <Image Include="Start.png">
       <Filter>Resource Files\textures</Filter>
     </Image>
+    <Image Include="BPIcon.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Pat0.txt">
