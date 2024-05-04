@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\textures">
+      <UniqueIdentifier>{f6ae119d-b515-4e82-88a9-702b2af4f2af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\sounds">
+      <UniqueIdentifier>{ad590960-18cd-4a80-a44d-75f207288983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\entityes">
+      <UniqueIdentifier>{2c1dbf50-d739-47ad-a64b-d52660e1a5e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\entityes">
+      <UniqueIdentifier>{68334935-d787-47e5-a093-b7cb0abd77f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scenes">
+      <UniqueIdentifier>{761e3e86-1ef2-484c-9eb1-20509db15645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\scene">
+      <UniqueIdentifier>{afd5608d-df37-4c74-9e35-243487e9fb2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gfx">
+      <UniqueIdentifier>{e8a0db3c-a735-4a2e-b285-1e06b59dc041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gfx">
+      <UniqueIdentifier>{490f22d3-a5ac-4136-b5b1-c41d1b56880e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\patterns">
+      <UniqueIdentifier>{5a8d3654-7584-43fd-8c8c-ee739cec747c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\collisions">
+      <UniqueIdentifier>{de71e299-24cf-4dbe-8304-b3abf8a70d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\collisions">
+      <UniqueIdentifier>{c6acf49a-9ad8-4c15-b961-cbaa4d3d28e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Brick.cpp">
+      <Filter>Source Files\entityes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Source Files\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="LeftPlayer.cpp">
+      <Filter>Source Files\entityes</Filter>
+    </ClCompile>
+    <ClCompile Include="RightPlayer.cpp">
+      <Filter>Source Files\entityes</Filter>
+    </ClCompile>
+    <ClCompile Include="TexturesManager.cpp">
+      <Filter>Source Files\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Source Files\entityes</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Source Files\collisions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Brick.h">
+      <Filter>Header Files\entityes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Header Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="LeftPlayer.h">
+      <Filter>Header Files\entityes</Filter>
+    </ClInclude>
+    <ClInclude Include="RightPlayer.h">
+      <Filter>Header Files\entityes</Filter>
+    </ClInclude>
+    <ClInclude Include="TexturesManager.h">
+      <Filter>Header Files\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Header Files\entityes</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Header Files\collisions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Ball.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="Bricks.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="Background.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="Player.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="BlueWins.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="Continue.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="Quit.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="RedWins.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="Restart.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="Start.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Pat0.txt">
+      <Filter>Resource Files\patterns</Filter>
+    </Text>
+    <Text Include="PattFull.txt">
+      <Filter>Resource Files\patterns</Filter>
+    </Text>
+    <Text Include="PattEmpty.txt">
+      <Filter>Resource Files\patterns</Filter>
+    </Text>
+    <Text Include="Pat1.txt">
+      <Filter>Resource Files\patterns</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
